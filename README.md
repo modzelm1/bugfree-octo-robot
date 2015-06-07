@@ -26,3 +26,18 @@ var query = " ( \"fish cat\"  pig) OR  dog";
 
 var query = " ( \"cat pig dog fly\" OR cat AND tiger)  snake fly (lion \"tiger\")";
 ```
+
+In ConsoleApplicationTest project you can find example how to use generated function for filtering data in list:
+
+```cs
+var query = "small OR cat";
+
+var sm = new SearchManager();
+var fun = sm.BuildStringQueryFunction(query);
+
+//using generated function fun for filtering list
+foreach (var item in GetTestData().Where(x=>fun(x.description)))
+{
+    Console.WriteLine("Pet: {0}, {1}", item.name, item.description);
+}
+```
