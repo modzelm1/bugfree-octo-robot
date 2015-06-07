@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSearchLogic", "StringSearchLogic\StringSearchLogic.csproj", "{9F9F0D2E-ED53-422E-87F6-2EE30BE8EE0A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSearchLogic.UnitTest", "StringSearchLogic.UnitTest\StringSearchLogic.UnitTest.csproj", "{5E94D4B5-0AB0-4250-B7C8-CF7542B1DD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationTest", "ConsoleApplicationTest\ConsoleApplicationTest.csproj", "{FF7E2041-A174-4EDE-994C-BBD65A29CA21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5E94D4B5-0AB0-4250-B7C8-CF7542B1DD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E94D4B5-0AB0-4250-B7C8-CF7542B1DD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E94D4B5-0AB0-4250-B7C8-CF7542B1DD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7E2041-A174-4EDE-994C-BBD65A29CA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7E2041-A174-4EDE-994C-BBD65A29CA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7E2041-A174-4EDE-994C-BBD65A29CA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7E2041-A174-4EDE-994C-BBD65A29CA21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
